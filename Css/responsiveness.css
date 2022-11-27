@@ -1,0 +1,61 @@
+@media screen and (max-width: 782px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+    }
+
+    nav ul{
+        margin: -18px 0px;
+    }
+
+    .searchbar{
+        width: 43vh;
+}
+
+.searchbar input{
+    width: 52vw;
+}
+.slider{
+    width: 81vw;
+}
+
+.slider img{
+    height: 35vh;
+    width: 80vw;
+}
+
+
+}
+
+@media screen and (max-width: 401px)
+{
+    .searchbar{
+        width: 80vw;
+    }
+
+    .searchbar input{
+        width: 45vw;
+    }
+
+    .slider{
+        width: 86vw;
+    }
+
+    .slider img{
+            height: 18vh;
+            width: 85vw;
+    }
+    
+}
+
+/*@media screen and (max-width: 375px)
+{
+    
+
+    
+}*/
+
+
+/* 1272px */
+/*26vh nav height */

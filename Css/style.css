@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: black;
+    font-family: 'Indie Flower', cursive;
+}
+main{
+    background-image:url("https://images.unsplash.com/photo-1575931953324-fcac7094999e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size:cover;
+}
+
+nav{
+    display: flex;
+}
+
+img{
+    width:102px;
+    border: 2px solid red;
+}
+nav div img:hover{
+    border: 2px solid greenyellow;  
+}
+
+nav ul{
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: larger
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+.searchbar{
+    display:flex;
+    align-items: center;
+}
+
+.searchbar input{
+    width: 30vw;
+    height: 32px;
+    border-radius:5px;
+    margin: 0px 12px;
+    font-family: 'Indie Flower', cursive;
+    font-size:larger;
+    padding:0px 12px;
+}
+.container{
+    padding: 10px;
+}
+
+.slider{   
+   margin: auto;
+   width: 50vw;
+   padding-bottom: 6vh;
+   overflow: hidden;
+}
+
+.slider img{
+    height: calc(100vh - 90px - 23vh);
+    width: 950px;
+}
+
+.cards-holder{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.card{
+    display: flex;
+    height: 390px;
+    max-width: 82vw;
+   margin: 18px auto;
+   overflow: scroll;
+}
+
+
+
+.card-item{
+    margin: 0px 18px;
+    padding-top: 0px;
+    width:34vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-item img{
+    height: 203px;
+    width: 220px;
+    margin: 22px 0px;
+}
+
+.lines ul{
+    list-style:none;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.lines ul{
+    color:white;
+}
+
+.lines ul li{
+    font-family: 'Indie Flower', cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+footer{
+    height: 11vh;
+    font-family: 'Indie Flower', cursive;
+    font-size:larger;
+}
+
+footer:hover{
+    color:yellow;
+}
